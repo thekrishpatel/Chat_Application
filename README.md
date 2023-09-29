@@ -1,16 +1,13 @@
-# Java Socket-based Chat Application
+# Chat Application
 
-![Java](https://img.shields.io/badge/language-Java-orange)
-![Socket Programming](https://img.shields.io/badge/technology-Socket%20Programming-blue)
-
-Welcome to the Java Socket-based Chat Application repository! This project allows two computers to establish a connection and engage in real-time text-based conversations. The application is built using Java and socket programming concepts, providing a hands-on learning experience in networking, multi-threading, and error handling.
+Welcome to the Chat Application repository! This project enables real-time text-based communication between users over a network. It's built using Java and socket programming, providing a practical introduction to networking, multi-threading, and error handling.
 
 ## Features
 
-- **Seamless Connection:** The application uses sockets to establish a connection between two computers, enabling instant communication.
-- **User-Friendly Interface:** Intuitive and easy-to-use interface for sending and receiving messages.
-- **Real-Time Communication:** Messages are delivered in real-time, creating a smooth and responsive chat experience.
-- **Two-Way Communication:** Enjoy full-fledged two-way conversations with the other user.
+- **Seamless Connection:** Establish a connection between two computers for instant communication.
+- **User-Friendly Interface:** Enjoy an intuitive interface for sending and receiving messages.
+- **Real-Time Communication:** Messages are delivered instantly, creating a smooth and responsive chat experience.
+- **Two-Way Communication:** Engage in two-way conversations with the other user.
 - **Simple Setup:** Run the Java program on two computers, connecting through IP addresses and port numbers.
 - **Multi-Threaded:** Multi-threading ensures concurrent handling of message sending and receiving.
 - **Error Handling:** The application gracefully handles disconnections and network issues.
@@ -30,6 +27,14 @@ Welcome to the Java Socket-based Chat Application repository! This project allow
 4. Enter the server's IP address and port number in the client application to establish a connection.
 5. Start chatting in real-time!
 
+## Group Chat (Additional Feature)
+
+This repository also includes a group chat feature that allows multiple users to join a chat room and communicate simultaneously. Here's how it works:
+
+1. **Server:** One computer acts as the server, hosting the chat room.
+2. **Clients:** Multiple clients can connect to the server's IP address and port number.
+3. **Group Chat:** Users can send messages to the chat room, and all connected clients will receive and display the messages.
+
 ## Contributing
 
 If you're interested in contributing to this project or exploring the code further, feel free to fork this repository and create a pull request. Your contributions are highly appreciated!
@@ -41,4 +46,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Created by Krish Patel
-
